@@ -1,6 +1,29 @@
 {
-	"devDependencies": {
-		"karma": "~0.10",
-		"karma-coffee-preprocessor": "~0.1"
-	}
+  "devDependencies": {
+    "karma-coffee-preprocessor": "~0.1.3",
+    "karma": "~0.10.10",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma-jasmine": "~0.1.5",
+    "karma-script-launcher": "~0.1.0"
+  },
+  "name": "karma-angular-coffee",
+  "description": "Sample project showing how to configure AngularJS, Karma and CoffeeScript.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "scripts/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luislee818/karma-angular-coffee.git"
+  },
+  "author": "Dapeng Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luislee818/karma-angular-coffee/issues"
+  },
+  "homepage": "https://github.com/luislee818/karma-angular-coffee"
 }
