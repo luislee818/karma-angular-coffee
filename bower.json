@@ -1,0 +1,27 @@
+{
+  "name": "asian_sports_book",
+  "version": "0.1.0",
+  "authors": [
+    "(Isaiah Peng <isaiah.peng@vcint.com>) (Wei-jen <wei-jen.lu@vcint.com>) (Dapeng Li <dapeng.li@vcint.com>)"
+  ],
+  "description": "Sports book for Asian market",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/assets/javascripts",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bindonce": "~0.3.1",
+    "angular-bootstrap": "~0.10.0",
+    "angular-mocks": "~1.2.14",
+    "angular-resource": "~1.2.14",
+    "angular-route": "~1.2.14",
+    "angular-translate": "~2.0.1",
+    "ngInfiniteScroll": "~1.0.0"
+  }
+}
